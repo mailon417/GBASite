@@ -30,7 +30,7 @@
             </center>
         </div>
         <map name="GBAmap">
-            <a><area shape="rect" coords="79,390,558,607" href="#Bay" role="button" class="img" data-toggle="modal" alt="Bay"/></a> 
+            <a><area shape="rect" coords="79,390,558,607" href="#Bay" id="BayArea" role="button" class="img" data-toggle="modal" alt="Bay"/></a> 
             <a><area shape="rect" coords="640,248,1049,548" href="#Capitol" role="button" class="img" data-toggle="modal" alt="Capitol" /></a>
             <a><area shape="rect" coords="1163,164,1541,630" href="#Sloss" role="button" class="img" data-toggle="modal" alt="Sloss" /></a>
             <a><area shape="rect" coords="1648,207,2009,588" href="#Sister" role="button" class="img" data-toggle="modal" alt="Sister"/></a>
@@ -41,23 +41,7 @@
             <a><area shape="rect" coords="21,672,274,926" href="#Talladega" role="button" class="img" data-toggle="modal" alt="Talladega"/></a>
         </map>
            
-        <!--
-            <div id="wrapper">
-        <img src="/Content/GBA Layoutsmall.jpg" alt="Pictures" usemap="#GBAmap" />
-            </center>
-        </div>
-        <map name="GBAmap">
-            <a><area shape="rect" coords="63,57,306,5,339" href="#Capitol" role="button" class="img" data-toggle="modal" alt="Capitol"/></a> 
-            <a><area shape="poly" coords="387,75,636,61,645,211,396,225,387,75" href="#Botanical" role="button" class="img" data-toggle="modal" alt="Botanical" /></a>
-            <a><area shape="poly" coords="778,15,906,42,865,238,737,211,778,15" href="#Huntsville" role="button" class="img" data-toggle="modal" alt="Huntsville" /></a>
-            <a><area shape="poly" coords="116,249,246,256,235,455,105,448,116,249" href="#Mercedes" role="button" class="img" data-toggle="modal" alt="Mercedes"/></a>
-            <a><area shape="poly" coords="306,317,435,302,454,502,325,514,306,317" href="#TimCook" role="button" class="img" data-toggle="modal" alt="TimCook"/></a>
-            <a><area shape="poly" coords="589,242,835,285,809,433,564,389,589,242" href="#BryantDenny" role="button" class="img" data-toggle="modal" alt="BryantDenny"/></a>
-            <a><area shape="poly" coords="74,510,319,559,290,706,45,657,74,510" href="#CPSI" role="button" class="img" data-toggle="modal" alt="CPSI"/></a>
-            <a><area shape="poly" coords="433,545,664,451,722,590,490,685,433,545" href="#Talledega" role="button" class="img" data-toggle="modal" alt="Talledega"/></a>
-            <a><area shape="poly" coords="803,495,932,474,962,671,835,693,803,495" href="#Sloss" role="button" class="img" data-toggle="modal" alt="Sloss"/></a>
-        </map>
-            -->
+       
        
         <!-- Modal -->
 <div id="Cook" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="TimCookModalLabel" aria-hidden="true">
@@ -108,32 +92,6 @@
       
         <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Close</button>  </div>
 </div>
-
-
-
-
-
-
-<div id="Mercedes" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="MercedesModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="MercedesModalLabel">Mercedes</h3>
-  </div>
-  <div class="modal-body">
-    <p>
-        Located in Vance, Alabama is the Mercedes-Benz U.S. International (MBUSI) automobile manufacturing plant. Plans for construction of the factory were announced in 
-        1993, which produced its first vehicle in 1997. Today, the plant contributes to the economy in state of Alabama by employing more than 4,000 employees directly
-         and even more when including suppliers. In addition to producing the popular ML and GL models, MBUSI will begin production of the Mercedes-Benz C-Class 
-        to the Vance plant beginning in 2014. 
-
-    </p>
-  </div>
-  <div class="modal-footer">   
-      <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Close</button>
-  </div>
-</div>
-
-
 
 
 
@@ -254,16 +212,22 @@
          up the Barnes Family Foundation Charity Organization with the financial abundance that the company provided.
     </p>
   </div>
+      <div class="modal-footer">   
+      <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
  </div>
 
+
 <div id="Bay" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="MobileBayModalLabel" aria-hidden="true">
+
   <div class="modal-header">
+
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     <h3 id="MobileBayModalLabel">Mobile Bay</h3>
   </div>
   <div class="modal-body">
+       
     <p>
-    
       Mobile Bay is an inlet of the Gulf of Mexico, lying within the state of Alabama in the United States. Mobile Bay is the fourth largest estuary in the United States with a
          discharge of 62,000 cubic feet (1,800 m<sup>3</sup>) of water per second. Today, the city of Mobile is situated at the head of the bay on the western shore.
     </p>
@@ -272,6 +236,8 @@
   <div class="modal-footer">   
       <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Close</button>
   </div>
+
+
 </div>
         <script src="Scripts/jquery.rwdImageMaps.js"></script>
         <script>
