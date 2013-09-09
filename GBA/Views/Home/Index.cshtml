@@ -26,17 +26,17 @@
              <!-- Button to trigger modal -->
        <div id="wrapper">
             <center>
-                <img src="/Content/GBA2.jpg" alt="Pictures" usemap="#GBAmap" />
+                <img width="2048" height="1536"src="/Content/GBA2.jpg" alt="Pictures" usemap="#GBAmap" />
             </center>
         </div>
         <map name="GBAmap">
-            <a><area shape="rect" coords="38,195,277,303" href="#Bay" role="button" class="img" data-toggle="modal" alt="Bay"/></a> 
-            <a><area shape="rect" coords="321,124,523,272" href="#Capitol" role="button" class="img" data-toggle="modal" alt="Capitol" /></a>
+            <a><area shape="rect" coords="79,390,558,607" href="#Bay" role="button" class="img" data-toggle="modal" alt="Bay"/></a> 
+            <a><area shape="rect" coords="640,248,1049,548" href="#Capitol" role="button" class="img" data-toggle="modal" alt="Capitol" /></a>
             <a><area shape="rect" coords="1163,164,1541,630" href="#Sloss" role="button" class="img" data-toggle="modal" alt="Sloss" /></a>
             <a><area shape="rect" coords="1648,207,2009,588" href="#Sister" role="button" class="img" data-toggle="modal" alt="Sister"/></a>
             <a><area shape="rect" coords="1569,676,2027,1082" href="#Gardens" role="button" class="img" data-toggle="modal" alt="Gardens"/></a>
             <a><area shape="rect" coords="1268,864,1540,1144" href="#Huntsville" role="button" class="img" data-toggle="modal" alt="Huntsville"/></a>
-            <a><area shape="rect" coords="320,386,603,603" href="#Stadium" role="button" class="img" data-toggle="modal" alt="Stadium"/></a>
+            <a><area shape="rect" coords="640,771,1211,1214" href="#Stadium" role="button" class="img" data-toggle="modal" alt="Stadium"/></a>
             <a><area shape="rect" coords="307,832,608,1114" href="#Cook" role="button" class="img" data-toggle="modal" alt="Cook"/></a>
             <a><area shape="rect" coords="21,672,274,926" href="#Talladega" role="button" class="img" data-toggle="modal" alt="Talladega"/></a>
         </map>
@@ -278,6 +278,11 @@
       <button class="btn btn-primary" data-dismiss="modal" aria-hidden="true">Close</button>
   </div>
 </div>
-
+        <script src="~/Scripts/jquery.rwdImageMaps.js"></script>
+        <script>
+            
+                $('img[usemap]').rwdImageMaps();
+             
+        </script>
     </body>
 </html>
