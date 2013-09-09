@@ -20,13 +20,30 @@
 
    
              <!-- Button to trigger modal -->
-        <div id="wrapper">
+       <div id="wrapper">
             <center>
+                <img src="/Content/GBA2.jpg" alt="Pictures" usemap="#GBAmap" />
+            </center>
+        </div>
+        <map name="GBAmap">
+            <a><area shape="poly" coords="81.57142639160156,390.8571472167969,555.8571166992187,389.4285888671875,557.2857055664062,609.4285888671875,78.71428680419922,609.4285888671875" href="#Bay" role="button" class="img" data-toggle="modal" alt="Bay"/></a> 
+            <a><area shape="poly" coords="641.5714111328125,246.57144165039062,1050.142822265625,246.57144165039062,1050.142822265625,546.5714111328125,640.1428833007812,546.5714111328125" href="#Capitol" role="button" class="img" data-toggle="modal" alt="Capitol" /></a>
+            <a><area shape="rect" coords="1163,164,1541,630" href="#Sloss" role="button" class="img" data-toggle="modal" alt="Sloss" /></a>
+            <a><area shape="rect" coords="1648,207,2009,588" href="#Sister" role="button" class="img" data-toggle="modal" alt="Sister"/></a>
+            <a><area shape="rect" coords="1569,676,2027,1082" href="#Gardens" role="button" class="img" data-toggle="modal" alt="Gardens"/></a>
+            <a><area shape="rect" coords="1268,864,1540,1144" href="#Huntsville" role="button" class="img" data-toggle="modal" alt="Huntsville"/></a>
+            <a><area shape="rect" coords="641,770,1211,1215" href="#Stadium" role="button" class="img" data-toggle="modal" alt="Stadium"/></a>
+            <a><area shape="rect" coords="307,832,608,1114" href="#Cook" role="button" class="img" data-toggle="modal" alt="Cook"/></a>
+            <a><area shape="rect" coords="21,672,274,926" href="#Talladega" role="button" class="img" data-toggle="modal" alt="Talladega"/></a>
+        </map>
+           
+        <!--
+            <div id="wrapper">
         <img src="/Content/GBA Layoutsmall.jpg" alt="Pictures" usemap="#GBAmap" />
             </center>
         </div>
         <map name="GBAmap">
-            <a><area shape="poly" coords="63,57,306,5,339,151,94,204,63,57" href="#Capitol" role="button" class="img" data-toggle="modal" alt="Capitol"/></a> 
+            <a><area shape="rect" coords="63,57,306,5,339" href="#Capitol" role="button" class="img" data-toggle="modal" alt="Capitol"/></a> 
             <a><area shape="poly" coords="387,75,636,61,645,211,396,225,387,75" href="#Botanical" role="button" class="img" data-toggle="modal" alt="Botanical" /></a>
             <a><area shape="poly" coords="778,15,906,42,865,238,737,211,778,15" href="#Huntsville" role="button" class="img" data-toggle="modal" alt="Huntsville" /></a>
             <a><area shape="poly" coords="116,249,246,256,235,455,105,448,116,249" href="#Mercedes" role="button" class="img" data-toggle="modal" alt="Mercedes"/></a>
@@ -36,9 +53,10 @@
             <a><area shape="poly" coords="433,545,664,451,722,590,490,685,433,545" href="#Talledega" role="button" class="img" data-toggle="modal" alt="Talledega"/></a>
             <a><area shape="poly" coords="803,495,932,474,962,671,835,693,803,495" href="#Sloss" role="button" class="img" data-toggle="modal" alt="Sloss"/></a>
         </map>
-
+            -->
+       
         <!-- Modal -->
-<div id="TimCook" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="TimCookModalLabel" aria-hidden="true">
+<div id="Cook" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="TimCookModalLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     <h3 id="TimCookModalLabel">Tim Cook</h3>
@@ -134,7 +152,7 @@
 </div>
                 
             
-<div id="BryantDenny" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="BryantDennyModalLabel" aria-hidden="true">
+<div id="Stadium" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="BryantDennyModalLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     <h3 id="BryantDennyModalLabel">Bryant Denny</h3>
@@ -196,7 +214,7 @@
             
             
             
-<div id="Botanical" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="BotanicalModalLabel" aria-hidden="true">
+<div id="Gardens" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="GardensModalLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     <h3 id="BotanicalModalLabel">Botanical Gardens</h3>
@@ -236,7 +254,7 @@
 </div>     
             
                
-<div id="SisterSchubert" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="SisterSchubertModalLabel" aria-hidden="true">
+<div id="Sister" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="SisterSchubertModalLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
     <h3 id="SisterSchubertModalLabel">Sister Schubert</h3>
