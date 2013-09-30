@@ -1,13 +1,10 @@
-﻿
-    
-    <body>
-        
-    <link href="/Content/bootstrap/css/bootstrap.css" rel="stylesheet" />
+﻿      
+    <link href="/Content/bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css"/>
         
     <script src="/Scripts/jquery-1.7.1.js"></script>
     <script src="/Content/bootstrap/js/bootstrap.js"></script>
     <script src="/Scripts/MyApp.js"></script>
-    <link href="/Content/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" />
+    <link href="/Content/bootstrap/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
 
 
         
@@ -15,14 +12,11 @@
 
    
              <!-- Button to trigger modal -->
-       <div id="wrapper">
-            <center>
-                <img width="2048" height="1536" src="/Content/GBA2.jpg" alt="Pictures" usemap="#GBAmap" />
-            </center>
-        </div>
+     <div class="c1" id="wrapper"><img width="2048" height="1536" src="/Content/GBA2.jpg" alt="Pictures" usemap="#GBAmap"></div>
+
         <map name="GBAmap">
-            <a><area shape="rect" coords="79,390,558,607" href="#Bay" id="BayArea" role="button" class="img" data-toggle="modal" alt="Bay"/></a> 
-            <a><area shape="rect" coords="640,248,1049,548" href="#Capitol" role="button" class="img" data-toggle="modal" alt="Capitol" /></a>
+            <a><area shape="rect" coords="79,390,558,607" href="#Bay" id="BayArea" class="img" data-toggle="modal" alt="Bay"/></a> 
+            <a><area shape="rect" coords="640,248,1049,548" href="#Capitol" class="img" data-toggle="modal" alt="Capitol" /></a>
             <a><area shape="rect" coords="1163,164,1541,630" href="#Sloss" role="button" class="img" data-toggle="modal" alt="Sloss" /></a>
             <a><area shape="rect" coords="1648,207,2009,588" href="#Sister" role="button" class="img" data-toggle="modal" alt="Sister"/></a>
             <a><area shape="rect" coords="1569,676,2027,1082" href="#Gardens" role="button" class="img" data-toggle="modal" alt="Gardens"/></a>
@@ -233,4 +227,4 @@
                 $('img[usemap]').rwdImageMaps();
              
         </script>
-    </body>
+
